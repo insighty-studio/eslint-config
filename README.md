@@ -5,15 +5,14 @@ Standard Insighty ESLint configuration.
 ### Getting Started
 1. Pick one of the included configs
 1. Copy to the root of your project, right next to your `package.json`
-1. Rename to `.eslintrc`
 1. Install dependencies as described below
 ## Included configs
 
-### [Basic ES6](.eslintrc-basic)
+### [Basic ES6](es6-basic/.eslintrc.json)
 Dependencies:
 `yarn add --dev eslint babel-eslint eslint-config-airbnb-base eslint-plugin-import`
 
-### [React](.eslintrc-react)
+### [React](react/.eslintrc.json)
 Dependencies:
 `yarn add --dev eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react`
 
